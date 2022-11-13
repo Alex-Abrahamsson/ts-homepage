@@ -6,7 +6,7 @@ import style from './home.module.scss';
 export default function Home() {
     return (
         <Container>
-            <h1>Welcome</h1>
+            <h1>Welcome! My name is Alex</h1>
         </Container>
     );
 }
