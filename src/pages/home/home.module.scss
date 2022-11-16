@@ -2,5 +2,134 @@
 
 
 .MainContainer {
-    background-color: $color-background;
+    background-color: $color-background-dark;
 }
+
+.SeMe {
+    border: 1px solid red;
+}
+  .ColoredDiv {
+    background-color: $color-light;
+    margin: 0 0 10px 0;
+  }
+  .SmallContainerLeft {
+    display: flex;
+    justify-content: right;
+  }
+  .SmallContainerRight {
+    display: flex;
+    justify-content: left;
+  }
+  .RightBorderContainer {
+    border-right: 2px solid $color-light;
+    padding-right: 20px;
+    overflow: hidden;
+    margin-top: 5px;
+    p {
+        font-size: 12px;
+        color: $color-light-grey;
+    }
+  }
+  .LeftBorderContainer {
+    padding-left: 20px;
+    p {
+      font-size: 12px;
+    }
+  }
+  .CenteredList {
+    text-align: center;
+    padding: 0 0 5px 0;
+  }
+  .MyIcons {
+    font-size: 32px;
+    color: $color-light;
+    margin: 0 0 30px 0;
+  }
+  .SkillListP {
+    margin: 0;
+  }
+  .Dot {
+    margin-left: 10px;
+    margin-top: 11px;
+    height: 13px;
+    width: 13px;
+    background-color: #3b3b3b;
+    border-radius: 2px;
+    border: 1px solid $color-light;
+    display: inline-block;
+  }
+  .FilledDot {
+    margin-left: 10px;
+    margin-top: 11px;
+    height: 13px;
+    width: 13px;
+    background-color: $color-light;
+    border-radius: 2px;
+    display: inline-block;
+  }
+  
+  em {
+    color: gray;
+  }
+  strong {
+    padding: 0 5px 0 5px;
+  }
+  ul {
+    list-style: inside;
+  }
+  li {
+    font-size: 12px;
+    color: gray;
+  }
+  .Diamond {
+    position: relative;
+    height: 110px;
+    width: 110px;
+    line-height: 200px;
+    text-align: center;
+    margin: 10px 0px 15px 0px;
+  }
+  .Diamond:before {
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    transform: rotateX(45deg) rotateZ(45deg);
+    border: 3px solid $color-light;
+  }
+  .Diamond:after {
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    content: "";
+    height: calc(100% - 22px); /* -22px is 2 * 10px gap on either side - 2px border on either side */
+    width: calc(100% - 22px); /* -22px is 2 * 10px gap on either side - 2px border on either side */
+    border: 1px solid $color-light;
+    transform: rotateX(45deg) rotateZ(45deg);
+    background: url("../../assets/GrassIsland.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  @media screen and (max-width: $max-container-width) {
+    .SkillListP {
+      font-size: 12px;
+    }
+    .Dot {
+      margin-left: 8px;
+      margin-top: 11px;
+      height: 12px;
+      width: 12px;
+    }
+    .FilledDot {
+      margin-left: 8px;
+      margin-top: 11px;
+      height: 12px;
+      width: 12px;
+    }
+    .RightBorderContainer{
+        border-right: none;
+    }
+  }
