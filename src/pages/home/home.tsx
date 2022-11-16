@@ -111,17 +111,17 @@ export default function Home() {
                     </Row>
                     <Row>
                         <BoxHeader title="SKILLS" />
-                        <SkillProgress skillLevel={60} skillName={'C#'}/>
-                        <SkillProgress skillLevel={20} skillName={'C++'}/>
-                        <SkillProgress skillLevel={80} skillName={'HTML'}/>
-                        <SkillProgress skillLevel={80} skillName={'Css/Sass'}/>
-                        <SkillProgress skillLevel={80} skillName={'JavaScript'}/>
-                        <SkillProgress skillLevel={80} skillName={'React'}/>
-                        <SkillProgress skillLevel={50} skillName={'SQL'}/>
-                        <SkillProgress skillLevel={50} skillName={'EntityFramework'}/>
-                        <SkillProgress skillLevel={40} skillName={'Azure'}/>
-                        <SkillProgress skillLevel={80} skillName={'UnrealEngine'}/>
-                        <SkillProgress skillLevel={30} skillName={'Unity'}/>
+                        <SkillProgress skillLevel={3} skillName={'C#'}/>
+                        <SkillProgress skillLevel={1} skillName={'C++'}/>
+                        <SkillProgress skillLevel={4} skillName={'HTML'}/>
+                        <SkillProgress skillLevel={4} skillName={'Css/Sass'}/>
+                        <SkillProgress skillLevel={4} skillName={'JavaScript'}/>
+                        <SkillProgress skillLevel={4} skillName={'React'}/>
+                        <SkillProgress skillLevel={2} skillName={'SQL'}/>
+                        <SkillProgress skillLevel={2} skillName={'EntityFramework'}/>
+                        <SkillProgress skillLevel={2} skillName={'Azure'}/>
+                        <SkillProgress skillLevel={4} skillName={'UnrealEngine'}/>
+                        <SkillProgress skillLevel={2} skillName={'Unity'}/>
                     </Row>
                 </Col>
             </Row>
