@@ -1,0 +1,15 @@
+@import '../../styles/variables';
+
+.ColoredDiv {
+    background-color: $color-light;
+    margin: 0 0 10px 0;
+  }
+  .SmallContainerLeft {
+    display: flex;
+    justify-content: right;
+  }
+  li {
+    list-style-type: none;
+    color: gray;
+    text-align: start;
+  }

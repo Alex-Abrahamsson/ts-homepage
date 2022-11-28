@@ -1,0 +1,17 @@
+@import '../../styles/variables';
+
+.CenteredList {
+    text-align: center;
+    padding: 0 0 5px 0;
+    text-align: start;
+
+    strong {
+        font-size: 16px;
+        color: gray;
+    }
+    em {
+        font-size: 14px;
+        color: gray;
+        margin-left: 10px;
+    }
+}

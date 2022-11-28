@@ -2,8 +2,9 @@
 
 .SkillListP {
     margin: 0;
-    color: $color-light;
-    font-size: calc(10px + 0.2vw);
+    color: gray;
+    font-size: calc(12px + 0.2vw);
+    text-align: start;
   }
 .Dot {
     margin-left: 5px;
@@ -17,7 +18,7 @@
   }
   .FilledDot {
     margin-left: 5px;
-    margin-top: 11px;
+    margin-top: 10px;
     height: 5px;
     max-width: 5px !important;
     background-color: $color-light;

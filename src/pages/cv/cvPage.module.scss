@@ -1,0 +1,40 @@
+@import "../../styles/variables.scss";
+
+.Container {
+  background-color: $color-background-dark;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 10;
+}
+.Diamond {
+    position: relative;
+    height: 110px;
+    width: 110px;
+    line-height: 200px;
+    text-align: center;
+    margin: 10px 0px 15px 0px;
+  }
+  .Diamond:before {
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    transform: rotateX(45deg) rotateZ(45deg);
+    border: 3px solid $color-light;
+  }
+  .Diamond:after {
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    content: "";
+    height: calc(100% - 22px); /* -22px is 2 * 10px gap on either side - 2px border on either side */
+    width: calc(100% - 22px); /* -22px is 2 * 10px gap on either side - 2px border on either side */
+    border: 1px solid $color-light;
+    transform: rotateX(45deg) rotateZ(45deg);
+    background: url("../../assets/GrassIsland.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
