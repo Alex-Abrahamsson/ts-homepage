@@ -20,10 +20,10 @@ export default function CvPage() {
             </Row>
             <Col>
                 <SummarySection/>
+                <InterestsSection/>
                 <ExperienceSection/>
                 <EducationSection/>
                 <SkillSection/>
-                <InterestsSection/>
                 <ContactSection/>
             </Col>
         </Container>

@@ -4,7 +4,9 @@
     margin: 0;
     color: gray;
     font-size: calc(12px + 0.2vw);
-    text-align: start;
+    text-align: end;
+    padding-right: 0px;
+    padding-left: 20px;
   }
 .Dot {
     margin-left: 5px;
@@ -20,8 +22,9 @@
     margin-left: 5px;
     margin-top: 10px;
     height: 5px;
-    max-width: 5px !important;
+    width: 5px;
     background-color: $color-light;
+    border: 1px solid $color-light;
     border-radius: 2px;
     display: inline-block;
   }

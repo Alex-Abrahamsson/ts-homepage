@@ -1,7 +1,7 @@
 @import '../../styles/variables';
 
 .CenteredList {
-    text-align: start;
+    text-align: center;
     padding: 0 0 5px 0;
 
     strong {
@@ -12,6 +12,5 @@
     span {
         font-size: 14px;
         color: gray;
-        margin-left: 10px;
     }
 }

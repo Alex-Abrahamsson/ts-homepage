@@ -36,10 +36,10 @@ export default function SkillProgress({ skillName, skillLevel }: SkillProgressPr
 
     return (
         <Row style={{ marginTop: '5px' }}>
-            <Col xs={4}>
+            <Col xs={5}>
                 <p className={style.SkillListP}>{skillName}</p>
             </Col>
-            <Col xs={8}>
+            <Col>
                 <Row style={{display: 'flex'}}>
                     {greenDots.map((index) => (
                         <div
