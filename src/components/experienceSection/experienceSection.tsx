@@ -9,7 +9,12 @@ export default function ExperienceSection() {
             <BoxHeader title='EXPERIENCE' />
             <ul>
                 <li className={Style.CenteredList}>
-                    <strong>2018 - Present</strong>
+                    <strong>2021 - Present</strong>
+                    <br />
+                    <span>Software developer - Loomer</span>
+                </li>
+                <li className={Style.CenteredList}>
+                    <strong>2018 - 2021</strong>
                     <br />
                     <span>Indy game development</span>
                     <br />

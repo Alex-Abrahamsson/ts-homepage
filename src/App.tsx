@@ -5,6 +5,7 @@ import CvPage from './pages/cv/cvPage';
 import Stugan from './pages/stugan/stugan';
 import { Container } from 'react-bootstrap';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Footer from './components/footer';
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                     <Route path="/stugan" component={Stugan} />
                 </Switch>
             </Router>
+            <Footer/>
         </Container>
     );
 }

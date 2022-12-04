@@ -4,8 +4,8 @@ import BoxHeader from '../../components/boxHeader';
 import ContactSection from '../../components/contactSection/contactSection';
 import EducationSection from '../../components/eduactionSection/educationSection';
 import ExperienceSection from '../../components/experienceSection/experienceSection';
-import InterestsSection from '../../components/interestsSection/interestsSection';
 import SkillSection from '../../components/skillSection/skillSection';
+import SocialsSection from '../../components/socialsSection';
 import SummarySection from '../../components/summarySection/summarySection';
 import Style from './cvPage.module.scss';
 
@@ -20,11 +20,10 @@ export default function CvPage() {
             </Row>
             <Col>
                 <SummarySection/>
-                <InterestsSection/>
                 <ExperienceSection/>
                 <EducationSection/>
                 <SkillSection/>
-                <ContactSection/>
+                <SocialsSection/>
             </Col>
         </Container>
     );

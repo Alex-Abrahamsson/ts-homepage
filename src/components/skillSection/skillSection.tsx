@@ -7,7 +7,7 @@ import style from './skillSectionStyle.module.scss';
 
 export default function SkillSection() {
     return (
-        <Row style={{margin: '20px 0 25px 0'}}>
+        <Row style={{margin: '5px 0 15px 0'}}>
             <BoxHeader title='SKILLS' />
             <SkillProgress skillLevel={2} skillName={'EntityFramework'} />
             <SkillProgress skillLevel={4} skillName={'UnrealEngine'} />
