@@ -1,7 +1,7 @@
 import react from 'react';
 import { Container, Image } from 'react-bootstrap';
 import Slider from 'react-touch-drag-slider';
-import StugBilder from './StugBilder';
+import Friggan from './frigganImgs';
 
 export default function Stugan() {
     return (
@@ -18,7 +18,7 @@ export default function Stugan() {
                 transition={0.5}
                 scaleOnDrag={true}
             >
-                {StugBilder.map(({ url, title }, index) => (
+                {Friggan.map(({ url, title }, index) => (
                     <Image src={url} key={index} alt={title} style={{padding: '10px'}} />
                 ))}
             </Slider>
