@@ -15,7 +15,7 @@ export default function NavBar() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="/cv">Cv</Nav.Link>
-                        <Nav.Link href="#">TBA</Nav.Link>
+                        <Nav.Link href="/appPage">Apps</Nav.Link>
                         <NavDropdown title="Stugan" id="basic-nav-dropdown">
                             <NavDropdown.Item href="/dasset">Dasset</NavDropdown.Item>
                             <NavDropdown.Item href="/friggan">Friggan</NavDropdown.Item>
