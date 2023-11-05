@@ -1,6 +1,7 @@
 import react, { useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Style from './home.module.scss';
+import ContentContainer from '../../components/contentContainer/contentContainer';
 
 export default function Home() {
     const [windowWidth, setWindowWidth] = react.useState(window.innerWidth / 15 + 'vh');
@@ -22,6 +23,11 @@ export default function Home() {
                 <div className={Style.stars}></div>
                 <div className={Style.twinkling}></div>
                 <div className={Style.clouds}></div>
+                <ContentContainer backgroundColor='rgba(0,0,0,0.4)'>
+                    <p style={{ color: 'lime', zIndex: 1000}}>
+                        hej ljhdlfjldfslkdnskövnösm
+                    </p>
+                </ContentContainer>
             </div>
         </Container>
     );
