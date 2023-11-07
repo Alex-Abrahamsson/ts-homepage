@@ -1,0 +1,30 @@
+@import '../../styles/variables.scss';
+
+.MainContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: peru;
+
+    .TextContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 5rem;
+        border: 1px solid red;
+        max-width: 800px;
+
+        h1 {
+            color: $color-primary;
+            font-size: 5rem;
+            font-weight: 700;
+            letter-spacing: 0.6rem;
+            text-align: center;
+        }
+    }
+
+
+}
+

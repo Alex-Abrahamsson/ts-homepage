@@ -1,0 +1,20 @@
+@import '../../styles/variables.scss';
+
+.scrollingTextContainer {
+    overflow: hidden;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    max-width: 1280px;
+    h3 {
+        animation: scroll 20s linear infinite;
+        color: gold;
+        white-space: nowrap;
+        
+    }
+    @keyframes scroll {
+        0% { transform: translateX(100%); }
+        100% { transform: translateX(-100%); }
+    }
+}
