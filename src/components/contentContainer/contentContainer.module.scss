@@ -1,14 +1,7 @@
 .contentContainer {
-    border: '1px solid red'; 
-    z-index: 3; 
-    display: 'flex' !important;
+    width: '100%';
+    min-height: 100vh;
+    display: 'flex';
+    flex: 1;
     flex-direction: column;
-    justify-content: 'center';
-    align-items: center;
-    align-content: center;
-    height: '94%';
-    width: '100%'; 
-    max-width: '900px'; 
-    position: 'relative';
-    margin-top: '6%';
 }
