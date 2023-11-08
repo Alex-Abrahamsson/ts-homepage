@@ -54,14 +54,34 @@ export default function TopComponent({ WelcomeText, TopRow, BottomRow, Opacity =
             </p>
         </div>
     ;
+
+    const contactSection: ReactNode = 
+        <div style={{ display: 'flex', width: '100%', height: '100%', justifyContent: 'center', flexDirection: 'column', textAlign: 'left' }}>
+            <h3 style={{ textAlign: 'center'}}>Kontakt</h3>
+            <div style={{ display: 'flex', width: '100%', height: '100%', justifyContent: 'space-around', flexDirection: 'row' }}>
+                <p>
+                    <a href='mailto:alex.abrahamsson@gmail.com'>✉️</a>
+                </p>
+                <p>
+                    <a href='tel:070-0000000'>📞</a>
+                </p>
+                <p>
+                    <a href='https://www.linkedin.com/in/alexander-abrahamsson-60ab83220/' target='_blank'>🔗</a>
+                </p>
+                <p>
+                    <a href='https://github.com/Alex-Abrahamsson' target='_blank'>🐱</a>
+                </p>
+            </div>
+        </div>
+    ;
     
     if (!WelcomeText) {
         return (
             <div className={Style.MainContainer} style={{ opacity: Opacity, pointerEvents: Opacity === 1 ? 'auto' : 'none' }}>
                 <div className={Style.TextContainer}>
-                    <AboutText beforeO='AB' afterO='UT' onClick={() => handleClick(0)} expanded={expanded[0]} hiddenPage={aboutSection}/>
+                    <AboutText beforeO='AB' afterO='UT' onClick={() => handleClick(0)} expanded={expanded[0]} hiddenPage={aboutSection} oHeight={500} oWidth={1000}/>
                     <AboutText beforeO='PORTF' afterO='LIO' onClick={() => handleClick(1)} expanded={expanded[1]}/>
-                    <AboutText beforeO='C' afterO='NTACT' onClick={() => handleClick(2)} expanded={expanded[2]}/>
+                    <AboutText beforeO='C' afterO='NTACT' onClick={() => handleClick(2)} expanded={expanded[2]} hiddenPage={contactSection}/>
                 </div>
             </div>
         );

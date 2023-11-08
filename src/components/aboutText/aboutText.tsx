@@ -8,15 +8,18 @@ interface IAboutText {
     onClick?: () => void;
     expanded?: boolean;
     hiddenPage?: ReactNode;
+    oWidth?: number;
+    oHeight?: number;
 }
 
-export default function AboutText({ beforeO, afterO, onClick, expanded, hiddenPage }: IAboutText) {
+export default function AboutText({ beforeO, afterO, onClick, expanded, hiddenPage, oHeight, oWidth }: IAboutText) {
 
     return (
         <div className={Style.MainContainer}>
             <h1>{beforeO}</h1>
             <div 
                 className={!expanded ? Style.TheO : Style.TheOExpanded}
+                style={expanded ? { height: `${oHeight}px`, width: `${oWidth}px` } : {}}
                 onClick={onClick} 
             >
                 {expanded && 
