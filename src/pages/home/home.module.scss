@@ -1,1 +1,19 @@
 @import '../../styles/variables';
+
+.AboutButton {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    color: $color-primary;
+    text-align: center;
+    display: inline-block;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        background-color: red;
+    }
+}
