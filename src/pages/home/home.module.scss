@@ -10,10 +10,16 @@
     color: $color-primary;
     text-align: center;
     display: inline-block;
-    font-size: 2rem;
+    font-size: 4rem;
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
+    animation: pulse 2s infinite;
     &:hover {
-        background-color: red;
+        color: darken($color-primary, 20%);
     }
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
 }
