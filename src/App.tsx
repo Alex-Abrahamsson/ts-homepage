@@ -11,11 +11,6 @@ function App() {
             <Router>
                 <Switch>
                     <Route exact path="/" component={Home} />
-                    {/* <Route path="/cv" component={CvPage} />
-                    <Route path="/appPage" component={AppPage} />
-                    <Route path="/stugan" component={Stugan} />
-                    <Route path="/friggan" component={Friggan} />
-                    <Route path="/dasset" component={Dasset} /> */}
                 </Switch>
             </Router>
             <Footer/>

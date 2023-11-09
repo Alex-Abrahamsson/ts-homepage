@@ -1,7 +1,6 @@
 import react from 'react';
 import { Row } from 'react-bootstrap';
 import { Github, Linkedin, Facebook, Instagram, Envelope } from 'react-bootstrap-icons';
-import BoxHeader from '../boxHeader';
 import Style from './socialsStyle.module.scss';
 
 export default function SocialsSection() {
@@ -17,7 +16,6 @@ export default function SocialsSection() {
 
     return (
         <Row className={Style.RightBorderContainer}>
-            <BoxHeader title='SOCIALS' />
             <div
                 style={{
                     padding: '15px 0 0 0',
