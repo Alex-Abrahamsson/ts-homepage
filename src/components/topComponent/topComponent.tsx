@@ -66,10 +66,10 @@ export default function TopComponent({ WelcomeText, TopRow, BottomRow, Opacity =
                     <a href='tel:070-0000000'>📞</a>
                 </p>
                 <p>
-                    <a href='https://www.linkedin.com/in/alexander-abrahamsson-60ab83220/' target='_blank'>🔗</a>
+                    <a href='https://www.linkedin.com/in/alexander-abrahamsson-60ab83220/' target='_blank' rel='noopener'>🔗</a>
                 </p>
                 <p>
-                    <a href='https://github.com/Alex-Abrahamsson' target='_blank'>🐱</a>
+                    <a href='https://github.com/Alex-Abrahamsson' target='_blank' rel='noopener'>🐱</a>
                 </p>
             </div>
         </div>
