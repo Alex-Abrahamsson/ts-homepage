@@ -1,6 +1,7 @@
 {
     "name": "ts-homepage",
     "version": "0.1.0",
+    "homepage": "https://alex-abrahamsson.github.io/ts-homepage/",
     "private": true,
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.5",
